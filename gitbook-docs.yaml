@@ -1,0 +1,115 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Guias de procedimentos Docs
+  structure:
+    - type: section
+      key: section-7
+      title: "Links "
+      path: links
+      children:
+        - type: space
+          key: space-7
+          title: Product Docs
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./links/product-docs
+    - type: section
+      key: section-1
+      title: Home
+      path: home
+      icon: house
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Home
+          path: home
+          default: true
+          content:
+            directory: ./home
+    - type: section
+      key: section-8
+      title: Fraseologias
+      path: fraseologias
+      children:
+        - type: space
+          key: space-8
+          title: Product Docs
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./fraseologias/product-docs
+    - type: section-group
+      key: section-group-1
+      title: Suporte Técnico
+      icon: seal
+      draft: true
+      children:
+        - type: section
+          key: section-2
+          title: Atendimento Inicial
+          path: atendimento-inicial
+          children:
+            - type: space
+              key: space-2
+              title: Product Docs
+              path: product-docs
+              default: true
+              draft: true
+              content:
+                directory: ./atendimento-inicial/product-docs
+        - type: section
+          key: section-3
+          title: Reautorização de fibra
+          path: reautorizacao-de-fibra
+          children:
+            - type: space
+              key: space-3
+              title: Product Docs
+              path: product-docs
+              default: true
+              draft: true
+              content:
+                directory: ./reautorizacao-de-fibra/product-docs
+        - type: section
+          key: section-4
+          title: Análise do Sinal da Fibra
+          path: analise-do-sinal-da-fibra
+          children:
+            - type: space
+              key: space-5
+              title: Atenuação de Fibra
+              path: product-docs-1
+              default: true
+              draft: true
+              content:
+                directory: ./analise-do-sinal-da-fibra/product-docs-1
+        - type: section
+          key: section-5
+          title: Rompimento de Fibra
+          path: rompimento-de-fibra
+          children:
+            - type: space
+              key: space-4
+              title: Product Docs
+              path: product-docs
+              default: true
+              draft: true
+              content:
+                directory: ./rompimento-de-fibra/product-docs
+        - type: section
+          key: section-6
+          title: Configuração do roteador
+          path: configuracao-do-roteador
+          children:
+            - type: space
+              key: space-6
+              title: Product Docs
+              path: product-docs
+              default: true
+              draft: true
+              content:
+                directory: ./configuracao-do-roteador/product-docs
